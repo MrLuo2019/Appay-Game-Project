@@ -1,0 +1,425 @@
+{
+	"groups": [
+		{
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,bg_jpg,egret_icon_png,description_json,new_loading_bg_jpg,heart_png,light_png,outline_png,loading_loop_tex_d07184f3_png,new_jindutiao_png,new_jindutiao2_png,Daohang_anim_tex_1c44a069_png,01BJL_tex_7b1b177f_png,02EB_tex_dfdc8e5a_png,03LP_tex_b3ca873_png,04DZNZ_tex_d6c1a598_png,05LHD_tex_67b838e6_png,06SLWH_tex_568dbc4b_png,07SB_tex_9f0320e9_png,08ERNN_tex_1b6f3a2d_png,09ZGWS_tex_d13002d5_png,10CS_tex_4bad3fd7_png,11BCBM_tex_f9dfb479_png,12BRNN_new_tex_c7ab78f4_png,13JSYS_tex_733c1042_png,14HH_tex_7b2b67dd_png,16ERMJ_tex_10a77277_png,18BY_tex_6c2be0ab_png,shisanshui_tex_5fb1246b_png,word_png,youhui_icon_tex_7bd797f_png,zhajinhua_tex_4d65f716_png,22DDZ_tex_503d6538_png,23ERNN_tex_60b226e5_png,151024_tex_d19da046_png,AG_hw_DB_tex_1a53ce6f_png,AGDT_CZTS_tex_89d72941_png,AS_TK_tex_f7de69c9_png,avatersheet_3896b0fb_png,bairenniuniu_tex_701eafc2_png,BJL_fruitmachine_tex_e994b739_png,Chongzhi_anim_tex_ec51a1a_png,chouma01_tex_740c5e53_png,Click_play_tex_9cebd0f0_png,Fenwei_anim_tex_52d7b3a0_png,globalsheet_b24f2cfe_png,GOLD_CNY_e4050d57_png,hallsheet_a06020e4_png,HB_icon_tex_991152c6_png,heart _png,Jiantou01_tex_5ab24631_png,Loadingsheet_5888f956_png,lunpan_tex_a73f6d03_png,maoziniu_tex_56af945c_png,mc_global_be307c7_png,menusheet_a7cb4abb_png,mouse_click_tex_bd8c6768_png,my_font_dd97e7a9_png,NN_ICON_tex_18ca991f_png,qznn_tex_9838bfa8_png,SHBY_icon_tex_29966780_png",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/CheckBox/checkbox_select_disabled.png",
+			"type": "image",
+			"name": "checkbox_select_disabled_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_down.png",
+			"type": "image",
+			"name": "checkbox_select_down_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_up.png",
+			"type": "image",
+			"name": "checkbox_select_up_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_unselect.png",
+			"type": "image",
+			"name": "checkbox_unselect_png"
+		},
+		{
+			"url": "assets/ItemRenderer/selected.png",
+			"type": "image",
+			"name": "selected_png"
+		},
+		{
+			"url": "assets/Panel/border.png",
+			"type": "image",
+			"name": "border_png"
+		},
+		{
+			"url": "assets/Panel/header.png",
+			"type": "image",
+			"name": "header_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_disabled.png",
+			"type": "image",
+			"name": "radiobutton_select_disabled_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_down.png",
+			"type": "image",
+			"name": "radiobutton_select_down_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_up.png",
+			"type": "image",
+			"name": "radiobutton_select_up_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_unselect.png",
+			"type": "image",
+			"name": "radiobutton_unselect_png"
+		},
+		{
+			"url": "assets/ScrollBar/roundthumb.png",
+			"type": "image",
+			"name": "roundthumb_png"
+		},
+		{
+			"url": "assets/Slider/thumb.png",
+			"type": "image",
+			"name": "thumb_png"
+		},
+		{
+			"url": "assets/Slider/track.png",
+			"type": "image",
+			"name": "track_png"
+		},
+		{
+			"url": "assets/Slider/tracklight.png",
+			"type": "image",
+			"name": "tracklight_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/handle.png",
+			"type": "image",
+			"name": "handle_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/off.png",
+			"type": "image",
+			"name": "off_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/on.png",
+			"type": "image",
+			"name": "on_png"
+		},
+		{
+			"url": "assets/Button/button_down.png",
+			"type": "image",
+			"name": "button_down_png"
+		},
+		{
+			"url": "assets/Button/button_up.png",
+			"type": "image",
+			"name": "button_up_png"
+		},
+		{
+			"url": "assets/ProgressBar/thumb_pb.png",
+			"type": "image",
+			"name": "thumb_pb_png"
+		},
+		{
+			"url": "assets/ProgressBar/track_pb.png",
+			"type": "image",
+			"name": "track_pb_png"
+		},
+		{
+			"url": "assets/ScrollBar/track_sb.png",
+			"type": "image",
+			"name": "track_sb_png"
+		},
+		{
+			"url": "assets/bg.jpg",
+			"type": "image",
+			"name": "bg_jpg"
+		},
+		{
+			"url": "assets/egret_icon.png",
+			"type": "image",
+			"name": "egret_icon_png"
+		},
+		{
+			"name": "description_json",
+			"type": "json",
+			"url": "config/description.json"
+		},
+		{
+			"name": "new_loading_bg_jpg",
+			"type": "image",
+			"url": "assets/new_loading_bg.jpg"
+		},
+		{
+			"name": "heart_png",
+			"type": "image",
+			"url": "assets/heart.png"
+		},
+		{
+			"name": "light_png",
+			"type": "image",
+			"url": "assets/light.png"
+		},
+		{
+			"name": "outline_png",
+			"type": "image",
+			"url": "assets/outline.png"
+		},
+		{
+			"name": "loading_loop_tex_d07184f3_png",
+			"type": "image",
+			"url": "assets/loading_loop_tex_d07184f3.png"
+		},
+		{
+			"name": "new_jindutiao_png",
+			"type": "image",
+			"url": "assets/new_jindutiao.png"
+		},
+		{
+			"name": "new_jindutiao2_png",
+			"type": "image",
+			"url": "assets/new_jindutiao2.png"
+		},
+		{
+			"name": "Daohang_anim_tex_1c44a069_png",
+			"type": "image",
+			"url": "assets/Daohang_anim_tex_1c44a069.png"
+		},
+		{
+			"name": "01BJL_tex_7b1b177f_png",
+			"type": "image",
+			"url": "assets/01BJL_tex_7b1b177f.png"
+		},
+		{
+			"name": "02EB_tex_dfdc8e5a_png",
+			"type": "image",
+			"url": "assets/02EB_tex_dfdc8e5a.png"
+		},
+		{
+			"name": "03LP_tex_b3ca873_png",
+			"type": "image",
+			"url": "assets/03LP_tex_b3ca873.png"
+		},
+		{
+			"name": "04DZNZ_tex_d6c1a598_png",
+			"type": "image",
+			"url": "assets/04DZNZ_tex_d6c1a598.png"
+		},
+		{
+			"name": "05LHD_tex_67b838e6_png",
+			"type": "image",
+			"url": "assets/05LHD_tex_67b838e6.png"
+		},
+		{
+			"name": "06SLWH_tex_568dbc4b_png",
+			"type": "image",
+			"url": "assets/06SLWH_tex_568dbc4b.png"
+		},
+		{
+			"name": "07SB_tex_9f0320e9_png",
+			"type": "image",
+			"url": "assets/07SB_tex_9f0320e9.png"
+		},
+		{
+			"name": "08ERNN_tex_1b6f3a2d_png",
+			"type": "image",
+			"url": "assets/08ERNN_tex_1b6f3a2d.png"
+		},
+		{
+			"name": "09ZGWS_tex_d13002d5_png",
+			"type": "image",
+			"url": "assets/09ZGWS_tex_d13002d5.png"
+		},
+		{
+			"name": "10CS_tex_4bad3fd7_png",
+			"type": "image",
+			"url": "assets/10CS_tex_4bad3fd7.png"
+		},
+		{
+			"name": "11BCBM_tex_f9dfb479_png",
+			"type": "image",
+			"url": "assets/11BCBM_tex_f9dfb479.png"
+		},
+		{
+			"name": "12BRNN_new_tex_c7ab78f4_png",
+			"type": "image",
+			"url": "assets/12BRNN_new_tex_c7ab78f4.png"
+		},
+		{
+			"name": "13JSYS_tex_733c1042_png",
+			"type": "image",
+			"url": "assets/13JSYS_tex_733c1042.png"
+		},
+		{
+			"name": "14HH_tex_7b2b67dd_png",
+			"type": "image",
+			"url": "assets/14HH_tex_7b2b67dd.png"
+		},
+		{
+			"name": "16ERMJ_tex_10a77277_png",
+			"type": "image",
+			"url": "assets/16ERMJ_tex_10a77277.png"
+		},
+		{
+			"name": "18BY_tex_6c2be0ab_png",
+			"type": "image",
+			"url": "assets/18BY_tex_6c2be0ab.png"
+		},
+		{
+			"name": "shisanshui_tex_5fb1246b_png",
+			"type": "image",
+			"url": "assets/shisanshui_tex_5fb1246b.png"
+		},
+		{
+			"name": "word_png",
+			"type": "image",
+			"url": "assets/word.png"
+		},
+		{
+			"name": "youhui_icon_tex_7bd797f_png",
+			"type": "image",
+			"url": "assets/youhui_icon_tex_7bd797f.png"
+		},
+		{
+			"name": "zhajinhua_tex_4d65f716_png",
+			"type": "image",
+			"url": "assets/zhajinhua_tex_4d65f716.png"
+		},
+		{
+			"name": "22DDZ_tex_503d6538_png",
+			"type": "image",
+			"url": "assets/22DDZ_tex_503d6538.png"
+		},
+		{
+			"name": "23ERNN_tex_60b226e5_png",
+			"type": "image",
+			"url": "assets/23ERNN_tex_60b226e5.png"
+		},
+		{
+			"name": "151024_tex_d19da046_png",
+			"type": "image",
+			"url": "assets/151024_tex_d19da046.png"
+		},
+		{
+			"name": "AG_hw_DB_tex_1a53ce6f_png",
+			"type": "image",
+			"url": "assets/AG_hw_DB_tex_1a53ce6f.png"
+		},
+		{
+			"name": "AGDT_CZTS_tex_89d72941_png",
+			"type": "image",
+			"url": "assets/AGDT_CZTS_tex_89d72941.png"
+		},
+		{
+			"name": "AS_TK_tex_f7de69c9_png",
+			"type": "image",
+			"url": "assets/AS_TK_tex_f7de69c9.png"
+		},
+		{
+			"name": "avatersheet_3896b0fb_png",
+			"type": "image",
+			"url": "assets/avatersheet_3896b0fb.png"
+		},
+		{
+			"name": "bairenniuniu_tex_701eafc2_png",
+			"type": "image",
+			"url": "assets/bairenniuniu_tex_701eafc2.png"
+		},
+		{
+			"name": "BJL_fruitmachine_tex_e994b739_png",
+			"type": "image",
+			"url": "assets/BJL_fruitmachine_tex_e994b739.png"
+		},
+		{
+			"name": "Chongzhi_anim_tex_ec51a1a_png",
+			"type": "image",
+			"url": "assets/Chongzhi_anim_tex_ec51a1a.png"
+		},
+		{
+			"name": "chouma01_tex_740c5e53_png",
+			"type": "image",
+			"url": "assets/chouma01_tex_740c5e53.png"
+		},
+		{
+			"name": "Click_play_tex_9cebd0f0_png",
+			"type": "image",
+			"url": "assets/Click_play_tex_9cebd0f0.png"
+		},
+		{
+			"name": "Fenwei_anim_tex_52d7b3a0_png",
+			"type": "image",
+			"url": "assets/Fenwei_anim_tex_52d7b3a0.png"
+		},
+		{
+			"name": "globalsheet_b24f2cfe_png",
+			"type": "image",
+			"url": "assets/globalsheet_b24f2cfe.png"
+		},
+		{
+			"name": "GOLD_CNY_e4050d57_png",
+			"type": "image",
+			"url": "assets/GOLD_CNY_e4050d57.png"
+		},
+		{
+			"name": "hallsheet_a06020e4_png",
+			"type": "image",
+			"url": "assets/hallsheet_a06020e4.png"
+		},
+		{
+			"name": "HB_icon_tex_991152c6_png",
+			"type": "image",
+			"url": "assets/HB_icon_tex_991152c6.png"
+		},
+		{
+			"name": "heart _png",
+			"type": "image",
+			"url": "assets/heart .png"
+		},
+		{
+			"name": "Jiantou01_tex_5ab24631_png",
+			"type": "image",
+			"url": "assets/Jiantou01_tex_5ab24631.png"
+		},
+		{
+			"name": "Loadingsheet_5888f956_png",
+			"type": "image",
+			"url": "assets/Loadingsheet_5888f956.png"
+		},
+		{
+			"name": "lunpan_tex_a73f6d03_png",
+			"type": "image",
+			"url": "assets/lunpan_tex_a73f6d03.png"
+		},
+		{
+			"name": "maoziniu_tex_56af945c_png",
+			"type": "image",
+			"url": "assets/maoziniu_tex_56af945c.png"
+		},
+		{
+			"name": "mc_global_be307c7_png",
+			"type": "image",
+			"url": "assets/mc_global_be307c7.png"
+		},
+		{
+			"name": "menusheet_a7cb4abb_png",
+			"type": "image",
+			"url": "assets/menusheet_a7cb4abb.png"
+		},
+		{
+			"name": "mouse_click_tex_bd8c6768_png",
+			"type": "image",
+			"url": "assets/mouse_click_tex_bd8c6768.png"
+		},
+		{
+			"name": "my_font_dd97e7a9_png",
+			"type": "image",
+			"url": "assets/my_font_dd97e7a9.png"
+		},
+		{
+			"name": "NN_ICON_tex_18ca991f_png",
+			"type": "image",
+			"url": "assets/NN_ICON_tex_18ca991f.png"
+		},
+		{
+			"name": "qznn_tex_9838bfa8_png",
+			"type": "image",
+			"url": "assets/qznn_tex_9838bfa8.png"
+		},
+		{
+			"name": "SHBY_icon_tex_29966780_png",
+			"type": "image",
+			"url": "assets/SHBY_icon_tex_29966780.png"
+		}
+	]
+}

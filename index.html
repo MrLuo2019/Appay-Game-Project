@@ -1,0 +1,236 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>AS真人棋牌</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="full-screen" content="true" />
+    <meta name="screen-orientation" content="portrait" />
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="360-fullscreen" content="true" />
+    <style>
+        html, body {
+            -ms-touch-action: none;
+            background: rgb(30, 30, 30);
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+        .egret-player {
+            margin: auto;
+            width: 100%;
+            height: 100%;
+        }
+        #logobg {
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            background-attachment: fixed;
+            background-image: url("https://asgameh5-hw.jinxingzhulu.com/v1/asgame/htmls/loading/images/new_loading_bg.jpg");
+            left: 0px;
+            top: 0px;
+            width: 100%;
+            height: 100%;
+            position: fixed;
+        }
+
+        .loadingCircle{
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            transform: rotate(0deg);
+        }
+        .loadingCircle .heart{
+            width: inherit;
+            height: inherit;
+            background-size: 100% 100%!important;
+            animation: rotateY 1s ease-in-out infinite;
+            position: absolute;
+            left: 0;
+            top: 0;
+            background: url("./resource/assets/heart.png") no-repeat;
+        }
+        .loadingCircle .outline{
+            width: inherit;
+            height: inherit;
+            animation: scale 1s ease-in infinite;
+            background-size: 100% 100%!important;
+            position: absolute;
+            left: 0;
+            top: 0;
+            background: url("./resource/assets/outline.png") no-repeat;
+        }
+        .loadingCircle .light{
+            width: 120px;
+            height: 120px;
+            background-size: 100% 100%!important;
+            animation: rotateZ 1s linear infinite;
+            position: absolute;
+            left: -45px;
+            top: -45px;
+            background: url("./resource/assets/light.png") no-repeat;
+        }
+        .loadingCircle .loading-font {
+            width: 15rem;
+            text-align: center;
+            color: #ffffff;
+            position: relative;
+            top: 5rem;
+            right: 7rem;
+        }
+        @keyframes rotateZ {
+            0%{
+                transform: rotateZ(0);
+            }
+            100%{
+                transform: rotateZ(-360deg);
+            }
+        }
+        @keyframes rotateY {
+            0%{
+                transform: rotateY(0) translate(0);
+            }
+            25%{
+                transform: rotateY(45deg) translateY(-8px);
+            }
+            50%{
+                transform: rotateY(90deg) translateY(0);
+            }
+            75%{
+                transform: rotateY(125deg) translateY(5px);
+            }
+            100%{
+                transform: rotateY(180deg) translateY(0);
+            }
+        }
+        @keyframes scale {
+            0%{
+                opacity: 0;
+                transform: scale(1.8);
+            }
+            50%{
+                opacity: 0;
+                transform: scale(1.8);
+            }
+            100%{
+                opacity: .3;
+                transform: scale(1);
+            }
+        }
+        @keyframes move {
+            0%{
+                transform: translate(0);
+            }
+            100%{
+                transform: translate(30px);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div style="margin: auto;width: 100%;height: 100%;" class="egret-player"
+         data-entry-class="Main"
+         data-orientation="landscape"
+         data-scale-mode="fixedHeight"
+         data-frame-rate="30"
+         data-content-width="1334"
+         data-content-height="750"
+         data-multi-fingered="2"
+         data-show-fps="false" data-show-log="false"
+         data-show-fps-style="x:0,y:0,size:12,textColor:0xffffff,bgAlpha:0.9">
+    </div>
+    <div id="logobg"
+        data-orientation="landscape" 
+        data-frame-rate="30" 
+        data-content-width="1334" 
+        data-content-height="750">
+    </div>
+    <div id="backgroundLogo" 
+        class="loadingCircle" 
+        data-orientation="landscape" 
+        data-frame-rate="30" 
+        data-content-width="1334" 
+        data-content-height="750">
+        <div id="logoHeart" class="heart"></div>
+        <div id="logoOutline" class="outline"></div>
+        <div id="logolight" class="light"></div>
+        <div id="loading-font" class="loading-font" data-orientation="landscape">正在努力加载 <span id="loading-num">0</span>%</div>
+    </div>
+<script>
+    var loadScript = function (list, callback) {
+        var loaded = 0;
+        var loading_num_ele = document.getElementById("loading-num");
+
+        var loadNext = function () {
+            loadSingleScript(list[loaded], function () {
+                loaded++;
+                loading_num_ele.innerHTML = parseInt(loaded / list.length * 100);
+
+                if (loaded >= list.length) {
+                    callback();
+                    logobg.style.display = "none";
+                    backgroundLogo.style.display = "none";
+                }
+                else {
+                    loadNext();
+                }
+            })
+        };
+        loadNext();
+    };
+
+    var loadSingleScript = function (src, callback) {
+        var s = document.createElement('script');
+        s.async = false;
+        s.src = src;
+        s.addEventListener('load', function () {
+            s.parentNode.removeChild(s);
+            s.removeEventListener('load', arguments.callee, false);
+            callback();
+        }, false);
+        document.body.appendChild(s);
+    };
+
+    var xhr = new XMLHttpRequest();
+    var logobg = document.getElementById("logobg");
+    var backgroundLogo = document.getElementById("backgroundLogo");
+
+    xhr.open('GET', './manifest.json?v=' + Math.random(), true);
+    xhr.addEventListener("load", function () {
+        var manifest = JSON.parse(xhr.response);
+        var list = manifest.initial.concat(manifest.game);
+        loadScript(list, function () {
+            /**
+             * {
+             * "renderMode":, //Engine rendering mode, "canvas" or "webgl"
+             * "audioType": 0 //Use the audio type, 0: default, 2: web audio, 3: audio
+             * "antialias": //Whether the anti-aliasing is enabled in WebGL mode, true: on, false: off, defaults to false
+             * "calculateCanvasScaleFactor": //a function return canvas scale factor
+             * }
+             **/
+            
+            egret.runEgret({ renderMode: "webgl", audioType: 0, calculateCanvasScaleFactor:function(context) {
+                var backingStore = context.backingStorePixelRatio ||
+                    context.webkitBackingStorePixelRatio ||
+                    context.mozBackingStorePixelRatio ||
+                    context.msBackingStorePixelRatio ||
+                    context.oBackingStorePixelRatio ||
+                    context.backingStorePixelRatio || 1;
+                return (window.devicePixelRatio || 1) / backingStore;
+                },
+                pro:false
+            });
+        });
+    });
+    xhr.send(null);
+</script>
+</body>
+
+</html>

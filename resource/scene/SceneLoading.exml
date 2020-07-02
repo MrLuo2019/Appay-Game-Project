@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SceneLoadingSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="173092f0708" ></w:Config>
+	<e:Image id="bg-img" source="new_loading_bg_jpg" left="0" right="0" top="0" bottom="0"/>
+	<e:Image id="fg-img" source="loading_loop_tex_d07184f3_png" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0.5" verticalCenter="0"/>
+	<e:Image id="jindu-01" source="new_jindutiao_png" width="640" y="595" horizontalCenter="0"/>
+	<e:Image id="jindu-02" source="new_jindutiao2_png" y="595" width="300" x="347"/>
+	<e:Label id="wenzi" text="♣️  游戏更有趣  公平看得见  ♣️" y="465" horizontalCenter="0" size="32"/>
+</e:Skin>
